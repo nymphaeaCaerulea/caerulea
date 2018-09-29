@@ -1,0 +1,37 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background: #181818;
+}
+
+div[id^="confettiPiece"] {
+	position:absolute;
+	width:40px;
+	height:40px;
+	background:grey;
+	display: inline-block;
+	transition: 0.2s;
+}
+
+#score{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	height:100%;
+	font-size:100px;
+	color: #4088BB;
+	-webkit-touch-callout: none;
+	/* iOS Safari */
+	-webkit-user-select: none;
+	/* Chrome/Safari/Opera */
+	-khtml-user-select: none;
+	/* Konqueror */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* Internet Explorer/Edge */
+	user-select: none;
+}
