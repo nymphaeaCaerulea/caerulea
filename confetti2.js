@@ -12,7 +12,10 @@ var points = 0;
 var confettis = 0;
 
 function generateHexColor() {
-	return "#" + (Math.random() * 0xFFFFFF << 0).toString(16);
+	var newColor = "#" + (Math.random() * 0xFFFFFF << 0).toString(16);
+	lastcolor.style.color = newColor;
+	lastcolor.innerHTML = newColor;
+	return newColor;
 }
 
 function getMouse(event){
